@@ -26,3 +26,23 @@ The **Edexa** contract is an ERC-721 Non-Fungible Token (NFT) smart contract tha
 - **_burn(uint256 tokenId)**: Burns the specified token (override to include both ERC721 and ERC721URIStorage logic).
 - **tokenURI(uint256 tokenId)**: Retrieves the metadata URI of a token.
 
+
+## Testing & Deployment
+
+#### Install Hardhat and Dependencies
+
+
+    npm install
+
+#### Test
+
+    npx hardhat test
+
+
+
+#### Deploy
+
+    npx hardhat run scripts/deploy.js --network <network-name>
+
+You will need to configure the network settings in the hardhat.config.js file if deploying to a testnet.
+
