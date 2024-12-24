@@ -1,6 +1,5 @@
-# Edexa Contract
 
-## Overview
+# Overview
 The **Edexa** contract is an ERC-721 Non-Fungible Token (NFT) smart contract that supports minting, burning, pausing, and unpausing of NFTs. It is built using OpenZeppelin's contracts for ERC721, Pausable, Ownable, and ERC721Burnable functionality.
 
 ## Features
@@ -15,7 +14,7 @@ The **Edexa** contract is an ERC-721 Non-Fungible Token (NFT) smart contract tha
 - **Token Symbol**: `ENFT`
 
 
-## Features
+
 
 ## Summary of Functions
 
